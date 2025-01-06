@@ -29,7 +29,7 @@ int main(){
     }
 
     int p = n + m + 1;
-    for (size_t i = 0; i <=p; i++)
+    for (int i = 0; i <=p; i++)
     {
         printf("%d ",arr3[i]);
     }    

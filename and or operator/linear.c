@@ -9,9 +9,6 @@ int main(){
     {
         arr[i] = (rand() % 50);
     }
-
-    
-
     for (int i = 0; i < n; i++)
     {
         printf("%d ", arr[i]);
@@ -42,6 +39,4 @@ if (arr[count-1]==user)
 {
     printf("position not found");
 }
-
-
 }
