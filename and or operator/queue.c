@@ -18,7 +18,8 @@ int enqueue(int arr[],int n){
 
 }
 }
-int dequeue(int arr[]){
+int 
+dequeue(int arr[]){
     if(rear==-1&&front==-1){
         printf("queue is empty");
    

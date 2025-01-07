@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #define n 6
-int arr[n];
+int arr[n]; 
 int a;
 
 int sort(){
