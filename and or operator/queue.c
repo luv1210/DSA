@@ -12,14 +12,12 @@ int enqueue(int arr[],int n){
 {
     front=rear=0;
     arr[rear]=x;
-}else{
+}else{                     
     rear++;
     arr[rear]=x;
-
 }
 }
-int 
-dequeue(int arr[]){
+ int  dequeue(int arr[]){
     if(rear==-1&&front==-1){
         printf("queue is empty");
    
@@ -42,7 +40,6 @@ void display(int arr[]){
 int main(){
 int arr[e];
 int x;
-enqueue(arr,e);
 enqueue(arr,e);
 enqueue(arr,e);
 

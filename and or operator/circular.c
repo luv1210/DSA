@@ -1,4 +1,5 @@
 #include<stdio.h>
+#define max 6
 int front=-1;
 int rear=-1;
 
@@ -32,7 +33,7 @@ void dequeue(int queue[],int n)
     }
     else
     {
-        printf("%d\n",queue[front]);
+        // printf("%d\n",queue[front]);
         front=(front+1)%n;
     }
 }
@@ -56,16 +57,16 @@ void display(int queue[],int n)
 }
 
 int main(){
-    int n=5;
-    int arr[n];
-    enqueue(10,n,arr);
-    enqueue(20,n,arr);
-    enqueue(30,n,arr);
-    enqueue(40,n,arr);
-    enqueue(50,n,arr);
-    enqueue(60,n,arr);
-    display(arr,n);
-    dequeue(arr,n);
-    enqueue(70,n,arr);
 
+    int arr[max];
+    enqueue(10,max,arr);
+    enqueue(20,max,arr);
+    enqueue(30,max,arr);
+    enqueue(40,max,arr);
+    enqueue(50,max,arr);
+    enqueue(60,max,arr);
+    display(arr,max);
+    dequeue(arr,max);
+    enqueue(70,max,arr);
+    display(arr,max);
 }
