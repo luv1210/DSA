@@ -15,7 +15,7 @@ int main(){
     }
     
     int user;
-    int count = 1;
+    int count = 0;
     printf("Enter value of finde:");
     scanf("%d",&user);
 
@@ -31,7 +31,7 @@ int main(){
         
     }
 
-if (arr[count-1]==user)
+if (arr[count]==user)
 {
        printf("position is:%d\n", count);
 
