@@ -53,8 +53,8 @@ void mergeshort(int arr[],int lb,int ub){
         mergeshort(arr,mid+1,ub);
         printf("call\n");
         merge(arr,lb,mid,ub);
-    }
-    
+    } 
+
 }
 int main(){
     int arr[5]={50,5,30,4,70};
@@ -69,5 +69,4 @@ int main(){
     }
     printf("\n");
     return 0;
-    
 }

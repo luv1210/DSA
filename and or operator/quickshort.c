@@ -37,11 +37,10 @@ void quickshort(int a[],int lb,int ub){
         quickshort(a,loc+1,ub);
 
     }
-    
-}
 
+}
 int main(){
-    int a[5]={20,10,8,30,25};
+  int a[5]={20,10,8,30,25};
     for (int v = 0; v < 5; v++){
            printf("%d\t",a[v]);
     }
@@ -52,6 +51,6 @@ int main(){
         printf("%d\t",a[v]);
     }
     printf("\n");
-    return 0;
-  
+    return 0; 
+
 }
